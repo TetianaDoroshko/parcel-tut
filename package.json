@@ -1,0 +1,30 @@
+{
+  "name": "tut",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url /parcel-tut/"
+  },
+  "author": "Tetiana Doroshko",
+  "license": "ISC",
+  "dependencies": {
+    "joi": "^17.6.0",
+    "shortid": "^2.2.16",
+    "validator": "^1.5.1"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-handlebars-precompile": "^1.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TetianaDoroshko/parcel-tut.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TetianaDoroshko/parcel-tut/issues"
+  },
+  "homepage": "https://github.com/TetianaDoroshko/parcel-tut#readme",
+  "description": ""
+}
